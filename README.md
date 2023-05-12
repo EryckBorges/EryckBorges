@@ -1,10 +1,10 @@
 <div>
   <h1 align="center">
     Oi Tudo bem? Eu sou o 
-    <a href="https://www.linkedin.com/in/edududuribeiro/">Eryck Borges 😎</a>
+    <a href="https://www.linkedin.com/in/eryckborges/">Eryck Borges 😎</a>
   </h1><br/>
-  <div align="center" valign="top">
-  <img align="center" alt="Perfil" height="300" width="300" border-radius="100" src="https://avatars.githubusercontent.com/u/118183447?v=4">
+  <div align="center" valign="top"  border-radius="50%">
+  <img align="center" alt="Perfil" height="300" width="300" src="https://avatars.githubusercontent.com/u/118183447?v=4">
   </div>
   <h3 align="center">
     Sou Desenvolvedor Front End, Desenvolvo e Programo com as seguintes linguagens:
