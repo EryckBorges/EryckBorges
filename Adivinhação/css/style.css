@@ -1,0 +1,1206 @@
+
+
+body {
+    background:black;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+
+#fundo {
+    width:100vw;
+    height:100vh;
+}
+
+#fundo #img {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    border:0;
+}
+
+#fundo #img::after {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:100vh;
+    width:50%;
+    background:linear-gradient(-250deg, #000 45%, rgba(0, 0, 0, 0) 70%) no-repeat;
+    z-index:1;
+}
+
+#fundo #img video {
+    width:120%;
+    height:100%;
+    left:0;
+}
+
+#fundo #menu {
+    border-radius: 5px;
+    overflow:hidden;
+    position:absolute;
+    top:1vh;
+    right:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:40vw;
+    height:8vh;
+    background:rgba(0, 0, 0, 0.349);
+}
+
+#fundo #menu #user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height:100%;
+}
+
+#fundo #menu #user img {
+    margin:0px 15px;
+    width:20%;
+    height:100%;
+    border-radius:50%;
+    background:none;
+}
+
+#fundo #menu #user p {
+    color:white;
+    font-size:16pt;
+    font-weight: 600;
+}
+
+#fundo #compras {
+    width:10%;
+    height:100%;
+    margin-right:30px;
+    background:none;
+    border:none;
+}
+
+#fundo #compras img {
+    width:60%;
+    height:60%;
+}
+
+#pont {
+    display:flex;
+    align-items: center;
+    width:13vw;
+    height:5vh;
+    border-radius:10px;
+    border:1px solid gray;
+    overflow:hidden;
+    background:#161616de;
+}
+
+#pont input {
+    background-color: transparent;
+    border:none;
+    text-align: center;
+    width:76%;
+    height:100%;
+    outline:none;
+}
+
+#pont input::placeholder {
+    font-size: 12pt;
+    font-weight: 550;
+    color:white;
+}
+
+#pont img {
+    width:26%;
+    height:100%;
+    background:transparent;
+}
+
+#cont {
+    width: 100%;
+    height:50vh;
+    background:linear-gradient(to top, black, rgba(0,0,0,0.8), rgba(0,0,0,0.0));
+    position: fixed;
+    bottom:0;
+    z-index:2;
+}
+
+#cont #paimon {
+    width:25vw;
+    height:100%;
+    position: relative;
+    left:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont #paimon img {
+    width:70%;
+    height:100%;
+}
+
+#cont #pergunta {
+    width:75vw;
+    height:80%;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+#cont #pergunta p {
+    width: 96%;
+    height:16vh;
+    margin:10px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:16pt;
+    font-weight: bold;
+    color:white;
+}
+
+#cont #pergunta input {
+    outline: none;
+    text-align: center;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border:2px solid black;
+    background:#161616;
+    color:white;
+    width:30vw;
+    height:5vh;
+}
+
+#cont #pergunta #btns {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:8vh;
+}
+
+#cont #pergunta #btns #btn {
+    text-align: center;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    cursor:pointer;
+    border:2px solid black;
+    background:purple;
+    color:white;
+    font-size:18pt;
+    width:5vw;
+    height:5.5vh;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont #pergunta #btns #btn img {
+    width:40%;
+    height:80%;
+}
+
+#cont #pergunta #btns #btnDica {
+    display:none;
+    cursor:pointer;
+    margin:0px 10px;
+    width:3vw;
+    height:5.5vh;
+    background:none;
+    border:none;
+}
+
+#cont #pergunta #btns #btnDica img {
+    width:100%;
+    height:100%;
+}
+
+#cont #pergunta #btns #btn:disabled {
+    background:rgba(66, 0, 66, 0.822);
+}
+
+#cont #pergunta #btnAgain {
+    display:none;
+    cursor:pointer;
+    border:2px solid black;
+    background:purple;
+    border-radius:5px;
+    color:white;
+    position:absolute;
+    width:12vw;
+    height:6vh;
+    left:42%;
+}
+
+#cont #pergunta #vidas {
+    width:100%;
+    height:10vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cont #pergunta #vidas img {
+    width:3vw;
+    height:6vh;
+    margin:0 10px;
+}
+
+#comprar {
+    display:none;
+    width:100%;
+    height:100%;
+    background:#161616;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#comprar::-webkit-scrollbar {
+    width: 6px;
+}
+  
+#comprar::-webkit-scrollbar-thumb {
+    border: 1px solid black; 
+    background:#dd1440;
+    border-radius: 6px; 
+}
+  
+#comprar::-webkit-scrollbar-track {
+    background-color:transparent;
+}
+
+#comprar #title {
+    width:100%;
+    height:10vh;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:2px solid #dd1440;
+}
+
+#comprar #title p {
+    color:white;
+    font-size:20pt;
+    font-weight: 600;
+}
+
+#comprar #title button {
+    background:none;
+    border:none;
+    font-size:18pt;
+    position: fixed;
+    right:2vw;
+    width:4vw;
+    height:5vh;
+    top:2vh;
+    color:#dd1440;
+}
+
+#comprar #itens {
+    margin-top:5vh;
+    width:100%;
+    height:90%;
+}
+
+#comprar #itens #comprarVidas {
+    width:100%;
+    height:34vh;
+    margin-top:6vh;
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+}
+
+#comprar #itens #comprarVidas .restVida {
+    width:15%;
+    margin: 0px 10px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow:hidden;
+    text-align: center;
+}
+
+#comprar #itens #comprarVidas .restVida img {
+    width:50%;
+    height:50%;
+}
+
+.overCora {
+    margin-bottom: -25vh;
+    animation:overCora 1.5s linear;
+}
+
+#comprar #itens #comprarVidas .restVida p {
+    font-size:12pt;
+    font-weight: 600;
+    color:white;
+    width:90%;
+    height:20%;
+    margin:10px 0px;
+}
+
+#comprar #itens #comprarVidas .restVida button {
+    width:75%;
+    overflow: hidden;
+    height:18%;
+    background:black;
+    border-radius: 10px;
+    border: 2px solid #dd1440;
+    color:white;
+    font-weight: 600;
+}
+
+#contUser {
+    display:none;
+    width:100%;
+    height:100%;
+    background:#161616;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:2;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#contUser::-webkit-scrollbar {
+    width: 6px;
+}
+  
+#contUser::-webkit-scrollbar-thumb {
+    border: 1px solid black; /* Cor da parte móvel da barra de rolagem */
+    background:#dd1440;
+    border-radius: 6px; /* Borda arredondada da parte móvel */
+}
+  
+#contUser::-webkit-scrollbar-track {
+    background-color:transparent; /* Cor de fundo da barra de rolagem */
+}
+
+#contUser #editPerfil {
+    color:white;
+    font-size:20pt;
+    width:100%;
+    height:10vh;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:2px solid #dd1440;
+}
+
+#contUser #editPerfil p {
+    color:white;
+    font-size:20pt;
+    font-weight: 600;
+}
+
+#contUser #editPerfil button {
+    background:none;
+    border:none;
+    font-size:18pt;
+    position: fixed;
+    right:2vw;
+    width:4vw;
+    height:5vh;
+    top:2vh;
+    color:#dd1440;
+}
+
+#contUser #imgPerfil {
+    margin-top:5vh;
+    width:100%;
+    height:36vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contUser #imgPerfil img {
+    width:18%;
+    height:100%;
+    border: 2px solid #dd1440;
+    border-radius:50%;
+}
+
+#contUser #editName {
+    width:100%;
+    height:8vh;
+    margin-top:15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contUser #nickName {
+    width:40%;
+    height:5vh;
+    margin:0px 10px;
+    background:#030303;
+    border:1px solid white;
+    color:white;
+    text-align: center;
+    border-radius:15px;
+    font-size:12pt;
+    font-weight: bold;
+    outline: none;
+}
+
+#contUser #color {
+    width:4%;
+    height:5vh;
+    outline: none;
+    background:#030303;
+    border:1px solid white;
+}
+
+#selectImg {
+    width:100%;
+    height:100vh;
+    margin-top:5vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top:2px solid #dd1440;
+    border-bottom:2px solid #dd1440;
+}
+
+#selectImg #city {
+    width:100%;
+    height:20vh;
+    margin:30px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#selectImg #city img {
+    width:10vw;
+    height:20vh;
+    margin-right:2vw;
+}
+
+#selectImg #city p {
+    font-size:30pt;
+    font-weight: bold;
+    color:white;
+}
+
+#selectImg::-webkit-scrollbar {
+    width: 6px;
+}
+  
+#selectImg::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Cor da parte móvel da barra de rolagem */
+    border-radius: 6px; /* Borda arredondada da parte móvel */
+}
+  
+#selectImg::-webkit-scrollbar-track {
+    background-color:transparent; /* Cor de fundo da barra de rolagem */
+}
+
+#selectImg .personagens {
+    width:100%;
+    height:35vh;
+    margin-bottom:2vh;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#selectImg .personagens .card {
+    width:20%;
+    height:90%;
+    margin:0px 10px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #dd1440;
+    background:url('/icon/Background5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#selectImg .personagens .card4 {
+    width:20%;
+    height:90%;
+    margin:0px 10px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #dd1440;
+    background:url('/icon/Background4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#selectImg .personagens .disabled img {
+    filter: grayscale(1);
+}
+
+#selectImg .personagens .card img {
+    width:80%;
+    height:100%;
+}
+
+#selectImg .personagens .card4 img {
+    width:80%;
+    height:100%;
+}
+
+#btnPerfil {
+    width:100%;
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5vh;
+    margin-bottom:5vh;
+}
+
+#cancelar {
+    background:#000000;
+    border:2px solid #06162c;
+    border-radius:5px;
+    color:white;
+    font-size: 10pt;
+    font-weight: bold;
+    width:10vw;
+    height:100%;
+    margin-right:70vw;
+}
+
+#salvar {
+    color:white;
+    background:#dd1440;
+    border:2px solid rgb(54, 3, 3);
+    border-radius:5px;
+    font-size: 10pt;
+    font-weight: bold;
+    width:10vw;
+    height:100%;
+}
+
+/*Animações*/
+
+@keyframes open {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@keyframes overCora {
+    from {
+        margin-bottom:0vh;
+    }50% {
+        filter:grayscale(50%);
+        margin-bottom:2vh;
+    }80% {
+        filter:grayscale(100%);
+        margin-bottom:-20vh;
+    } 
+    90% {
+        margin-bottom:-25vh;
+    }
+    to {
+        margin-bottom:-25vh;
+    }
+}
+
+/*Responsividade Celular*/
+
+@media screen and (max-width: 767px) {
+body {
+    background:black;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+
+#fundo {
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+}
+
+#fundo #img {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    border:none;
+    overflow:hidden;
+}
+
+#fundo #img::after {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:50vh;
+    width:100%;
+    background:linear-gradient(-180deg, #000 35%, rgba(0, 0, 0, 0) 70%) no-repeat;
+    z-index:1;
+}
+
+#fundo #img video {
+    width:120%;
+    height:100%;
+    position:fixed;
+    top:-6vh;
+}
+
+#fundo #menu {
+    border-radius: 5px;
+    overflow:hidden;
+    position:absolute;
+    top:1vh;
+    right:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:8vh;
+    z-index:2;
+}
+
+#fundo #menu #user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height:100%;
+}
+
+#fundo #menu #user img {
+    margin:0px 15px;
+    width:30%;
+    height:100%;
+    border-radius:50%;
+    background:none;
+}
+
+#fundo #menu #user p {
+    color:white;
+    font-size:10pt;
+    font-weight: 600;
+}
+
+#fundo #compras {
+    width:12%;
+    height:100%;
+    margin-right:10px;
+    background:none;
+    border:none;
+}
+
+#fundo #compras img {
+    width:60%;
+    height:60%;
+}
+
+#pont {
+    display:flex;
+    align-items: center;
+    width:35vw;
+    height:5vh;
+    border-radius:10px;
+    border:1px solid gray;
+    overflow:hidden;
+    background:#161616de;
+    margin-right:5px;
+}
+
+#pont input {
+    background-color: transparent;
+    border:none;
+    text-align: center;
+    width:76%;
+    height:100%;
+    outline:none;
+}
+
+#pont input::placeholder {
+    font-size: 10pt;
+    font-weight: 550;
+    color:white;
+}
+
+#pont img {
+    width:26%;
+    height:100%;
+    background:transparent;
+}
+
+#cont {
+    width: 100%;
+    height:40vh;
+    background:linear-gradient(to top, black, rgba(0,0,0,0.8), rgba(0,0,0,0.0));
+    position: fixed;
+    bottom:0;
+    z-index:2;
+}
+
+#cont #paimon {
+    width:30vw;
+    height:100%;
+    position: relative;
+    left:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont #paimon img {
+    width:100%;
+    height:70%;
+}
+
+#cont #pergunta {
+    width:70vw;
+    height:80%;
+    position: absolute;
+    right:0;
+    top:2vh;
+}
+
+#cont #pergunta p {
+    width: 96%;
+    height:20vh;
+    font-size:10pt;
+    font-weight: bold;
+    color:white;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+#cont #pergunta input {
+    outline: none;
+    text-align: center;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border:2px solid black;
+    background:#161616;
+    color:white;
+    width:45vw;
+    height:4vh;
+}
+
+#cont #pergunta #btns {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:8vh;
+}
+
+#cont #pergunta #btns #btn {
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    border:2px solid black;
+    background:purple;
+    width:10vw;
+    height:4.6vh;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont #pergunta #btns #btn img {
+    width:60%;
+    height:100%;
+}
+
+#cont #pergunta #btns #btnDica {
+    display:none;
+    cursor:pointer;
+    margin:0px 10px;
+    width:8vw;
+    height:5.5vh;
+    background:none;
+    border:none;
+}
+
+#cont #pergunta #btns #btnDica img {
+    width:100%;
+    height:100%;
+}
+
+#cont #pergunta #btns #btn:disabled {
+    background:rgba(66, 0, 66, 0.822);
+}
+
+#cont #pergunta #btnAgain {
+    display:none;
+    cursor:pointer;
+    border:2px solid black;
+    background:purple;
+    border-radius:5px;
+    color:white;
+    position:absolute;
+    width:35vw;
+    height:6vh;
+    left:26%;
+    overflow:hidden;
+}
+
+#cont #pergunta #vidas {
+    width:100%;
+    height:6vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cont #pergunta #vidas img {
+    width:8vw;
+    height:5vh;
+    margin:0 10px;
+}
+
+#comprar {
+    display:none;
+    width:100%;
+    height:100%;
+    background:#161616;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#comprar::-webkit-scrollbar {
+    width: 6px;
+}
+  
+#comprar::-webkit-scrollbar-thumb {
+    border: 1px solid black; 
+    background:#dd1440;
+    border-radius: 6px; 
+}
+  
+#comprar::-webkit-scrollbar-track {
+    background-color:transparent;
+}
+
+#comprar #title {
+    width:100%;
+    height:10vh;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:2px solid #dd1440;
+}
+
+#comprar #title p {
+    color:white;
+    font-size:18pt;
+    font-weight: 600;
+}
+
+#comprar #title button {
+    background:none;
+    border:none;
+    font-size:18pt;
+    position: fixed;
+    font-weight: bold;
+    right:8vw;
+    width:4vw;
+    height:5vh;
+    top:2vh;
+    color:#dd1440;
+}
+
+#comprar #itens {
+    margin-top:5vh;
+    width:100%;
+    height:90%;
+    
+}
+
+#comprar #itens #comprarVidas {
+    width:100%;
+    height:34vh;
+    margin-top:6vh;
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+}
+
+#comprar #itens #comprarVidas .restVida {
+    width:25%;
+    margin: 0px 2px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    overflow:hidden;
+    text-align: center;
+}
+
+#comprar #itens #comprarVidas .restVida img {
+    width:100%;
+    height:35%;
+}
+
+.overCora {
+    margin-bottom: -25vh;
+    animation:overCora 1.5s linear;
+}
+
+
+#comprar #itens #comprarVidas .restVida p {
+    font-size:8pt;
+    font-weight: 600;
+    color:white;
+    width:90%;
+    height:30%;
+    margin-top:10px;
+    margin-bottom:10px;
+    overflow:hidden;
+}
+
+#comprar #itens #comprarVidas .restVida button {
+    width:90%;
+    overflow: hidden;
+    height:12%;
+    border-radius: 10px;
+    border: 2px solid #dd1440;
+    color:white;
+    font-weight: 600;
+    font-size:8pt;
+}
+
+#contUser {
+    display:none;
+    width:100%;
+    height:100%;
+    background:#161616;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:2;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#contUser::-webkit-scrollbar {
+    width: 6px;
+}
+  
+#contUser::-webkit-scrollbar-thumb {
+    border: 1px solid black; /* Cor da parte móvel da barra de rolagem */
+    background:#dd1440;
+    border-radius: 6px; /* Borda arredondada da parte móvel */
+}
+  
+#contUser::-webkit-scrollbar-track {
+    background-color:transparent; /* Cor de fundo da barra de rolagem */
+}
+
+#contUser #editPerfil {
+    color:white;
+    font-size:18pt;
+    width:100%;
+    height:10vh;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:2px solid #dd1440;
+}
+
+#contUser #editPerfil p {
+    color:white;
+    font-size:18pt;
+    font-weight: 600;
+}
+
+#contUser #editPerfil button {
+    background:none;
+    border:none;
+    font-size:18pt;
+    font-weight: bold;
+    position: fixed;
+    right:8vw;
+    width:4vw;
+    height:5vh;
+    top:2vh;
+    color:#dd1440;
+}
+
+#contUser #imgPerfil {
+    margin-top:5vh;
+    overflow: hidden;
+    width:100%;
+    height:25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contUser #imgPerfil img {
+    min-width:38%;
+    max-width: 40%;
+    min-height:80%;
+    max-height:90%;
+    border: 2px solid #dd1440;
+    border-radius:10px;
+}
+
+#contUser #editName {
+    width:100%;
+    height:8vh;
+    margin-top:15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contUser #nickName {
+    width:60%;
+    height:4vh;
+    margin:0px 10px;
+    background:#030303;
+    border:1px solid white;
+    color:white;
+    text-align: center;
+    border-radius:15px;
+    font-size:10pt;
+    font-weight: bold;
+    outline: none;
+}
+
+#contUser #color {
+    width:10%;
+    height:4vh;
+    border-radius:5px;
+    outline: none;
+    background:#030303;
+    border:1px solid white;
+}
+
+#selectImg {
+    width:100%;
+    height:100vh;
+    margin-top:5vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top:2px solid #dd1440;
+    border-bottom:2px solid #dd1440;
+}
+
+#selectImg::-webkit-scrollbar {
+    width: 6px;
+}
+  
+#selectImg::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Cor da parte móvel da barra de rolagem */
+    border-radius: 6px; /* Borda arredondada da parte móvel */
+}
+  
+#selectImg::-webkit-scrollbar-track {
+    background-color:transparent; /* Cor de fundo da barra de rolagem */
+}
+
+#selectImg .personagens {
+    width:100%;
+    height:18vh;
+    margin-bottom:2vh;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+#selectImg .personagens .card {
+    width:25%;
+    height:90%;
+    margin:0px 2px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #dd1440;
+    background:url('/icon/Background5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#selectImg .personagens .disabled img {
+    filter: grayscale(1);
+}
+
+#selectImg .personagens .card img {
+    width:140%;
+    height:100%;
+}
+
+#btnPerfil {
+    width:100%;
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    overflow: hidden;
+}
+
+#cancelar {
+    background:#000000;
+    border:2px solid #06162c;
+    border-radius:5px;
+    color:white;
+    font-size: 10pt;
+    font-weight: bold;
+    width:20vw;
+    height:100%;
+    margin-right:50vw;
+    overflow: hidden;
+}
+
+#salvar {
+    color:white;
+    background:#dd1440;
+    border:2px solid rgb(54, 3, 3);
+    border-radius:5px;
+    font-size: 10pt;
+    font-weight: bold;
+    width:20vw;
+    height:100%;
+    overflow: hidden;
+}
+
+}
