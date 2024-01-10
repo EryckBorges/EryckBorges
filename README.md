@@ -1,21 +1,21 @@
-# 💫 About Me:
+# 💫 Sobre Mim:
 🔭 Estou a procura do meu primeiro emprego.<br>👯 Procuro colaborar com mina equipe.<br>🌱 Estou atualmente aprendendo Html, Css, JavaScript.<br>⚽Amo todo tipo de esporte.<br>🎮Gosto muito de videoGame.<br>🎧Gosto muito de escutar música.<br>💻Amo Programar.<br>♟Amo jogar Xadrez.<br>🎓Estudo na escola José Bonifácio (Unesp-Jaboticabal).
 
 
-## 🌐 Socials:
+## 🌐 Redes Sociais:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eryckborges_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eryck-borges-0a42b0267/) 
 
-# 💻 Tech Stack:
+# 💻 Meus Conhecimentos
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-# 📊 GitHub Stats:
+# 📊 GitHub Estatísticas:
 ![](https://github-readme-stats.vercel.app/api?username=EryckBorges&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=EryckBorges&theme=nightowl&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=EryckBorges&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Troféus 
 ![](https://github-profile-trophy.vercel.app/?username=EryckBorges&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-### 🔝 Top Contributed Repo
+### 🔝 Top Contibuição dos Repositórios
 ![](https://github-contributor-stats.vercel.app/api?username=EryckBorges&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
