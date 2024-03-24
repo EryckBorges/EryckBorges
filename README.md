@@ -87,13 +87,6 @@
 </div>
 
 
-<div align="center">
-<h3> If you support me, click here, give me a coffee</h3>
-<a href="https://ko-fi.com/carolinebarbosa" target="_blank">
-<img align="center" height="80" width="80" src="https://github.com/carolbarbosa101/carolbarbosa101/assets/44561610/40af04fc-bc9e-4581-80ee-30124cb5d17d">
-</a>
-</div>
-
 <br>
 <br> 
 
