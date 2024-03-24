@@ -1,24 +1,109 @@
-# 💫 Sobre Mim:
-🔭 Estou a procura do meu primeiro emprego.<br>👯 Procuro colaborar com mina equipe.<br>🌱 Estou atualmente aprendendo Html, Css, JavaScript.<br>⚽Amo todo tipo de esporte.<br>🎮Gosto muito de videoGame.<br>🎧Gosto muito de escutar música.<br>💻Amo Programar.<br>♟Amo jogar Xadrez.<br>🎓Estudo na escola José Bonifácio (Unesp-Jaboticabal).
+<img width=100% bottom=50px src="https://capsule-render.vercel.app/api?type=waving&color=ff91a48height=120&section=header"/>
+<br>
+<br> 
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=50&duration=4000&pause=1000&color=CF0A0A&center=true&vCenter=true&random=false&width=1000&lines=Hello%2C+my+name+is+Eryck&nbsp;Borges;I'm+17+years+old;I'm+a+Front-end+Developer;I'm+from+Brazil;welcome%3A)](https://git.io/typing-svg)
+<br>
+<br>
+<br>
+<br>
+
+<div align="center">
+   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=EryckBorges&show_icons=true&count_private=true&hide_border=true&title_color=CF0A0A&text_color=c9d1d9&bg_color=00000000&icon_color=CF0A0A" alt="Eryck Borges"/>
+
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EryckBorges&layout=compact&hide_border=true&title_color=CF0A0A&text_color=c9d1d9&bg_color=00000000">
+</div><br>
+<br>
+<br>
 
 
-## 🌐 Redes Sociais:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/eryckborges_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eryck-borges-0a42b0267/) 
+<div align="center"> 
+<p align="center">
+  <a href="https://instagram.com/eryckborges_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a href="https://github.com/EryckBorges" target="_blank"><img src="https://img.shields.io/badge/-GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/eryck-borges-0a42b0267" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:eryckborges2502@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
-# 💻 Meus Conhecimentos
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-# 📊 GitHub Estatísticas:
-![](https://github-readme-stats.vercel.app/api?username=EryckBorges&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=EryckBorges&theme=nightowl&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=EryckBorges&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Troféus 
-![](https://github-profile-trophy.vercel.app/?username=EryckBorges&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+<br>
+<br>
+<br>
+</div>
 
-### 🔝 Top Contibuição dos Repositórios
-![](https://github-contributor-stats.vercel.app/api?username=EryckBorges&limit=5&theme=dark&combine_all_yearly_contributions=true)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=EryckBorges&bg_color=ff91a48&color=ffffff&line=cf0a0a&point=0a0a0a&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
----
-[![](https://visitcount.itsvg.in/api?id=EryckBorges&icon=5&color=1)](https://visitcount.itsvg.in)
+<br>
+<br> 
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=50&duration=4000&pause=1000&color=CF0A0A&center=true&vCenter=true&random=false&width=1000&lines=My+Skills)](https://git.io/typing-svg)
+
+<br>
+<br>
+
+<div align=center>
+  
+![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117)&nbsp;
+![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=HTML5&labelColor=0D1117)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&labelColor=0D1117)&nbsp;
+
+</div>
+
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br> 
+
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=300&size=50&duration=4000&pause=1000&color=CF0A0A&center=true&vCenter=true&random=false&width=1000&lines=Studying+in+this+moment)](https://git.io/typing-svg)
+
+<br>
+<br>
+
+<div align="center">
+  
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117)&nbsp;
+  ![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=HTML5&labelColor=0D1117)&nbsp;
+  ![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&labelColor=0D1117)&nbsp;
+  ![GIT](https://img.shields.io/badge/-GIT-0D1117?style=for-the-badge&logo=GIT&labelColor=0D1117)&nbsp;
+  ![GITHUB](https://img.shields.io/badge/-GITHUB-0D1117?style=for-the-badge&logo=GITHUB&labelColor=0D1117)&nbsp;
+  ![NodeJs](https://img.shields.io/badge/-Node.js-0D1117?style=for-the-badge&logo=Node.js&labelColor=0D1117)&nbsp;
+  
+</div>
+
+<div align="center">
+  
+<br>
+<br>
+<br>
+<br>
+
+<p align="centre"><b>Visitors Count</b></p> 
+  
+<p align="center"><img align="center" src="https://visit-counter.vercel.app/counter.png?page=httpsCF0A0Agithub.com%2FEryckBorges&s=50&c=CF0A0A&bg=00000000&no=7&ff=digi&tb=Visits%3A++&ta=" /></p> 
+<br>
+</div>
+
+
+<div align="center">
+<h3> If you support me, click here, give me a coffee</h3>
+<a href="https://ko-fi.com/carolinebarbosa" target="_blank">
+<img align="center" height="80" width="80" src="https://github.com/carolbarbosa101/carolbarbosa101/assets/44561610/40af04fc-bc9e-4581-80ee-30124cb5d17d">
+</a>
+</div>
+
+<br>
+<br> 
+
+
+<img width=100% bottom=50px src="https://capsule-render.vercel.app/api?type=waving&color=ff91a48height=120&section=footer"/>
+
+
+
+
+
+
+
+
