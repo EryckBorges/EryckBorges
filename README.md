@@ -70,6 +70,7 @@
   ![GIT](https://img.shields.io/badge/-GIT-0D1117?style=for-the-badge&logo=GIT&labelColor=0D1117)&nbsp;
   ![GITHUB](https://img.shields.io/badge/-GITHUB-0D1117?style=for-the-badge&logo=GITHUB&labelColor=0D1117)&nbsp;
   ![NodeJs](https://img.shields.io/badge/-Node.js-0D1117?style=for-the-badge&logo=Node.js&labelColor=0D1117)&nbsp;
+  ![ReactJs](https://img.shields.io/badge/-React-0D1117?style=for-the-badge&logo=React&labelColor=0D1117)&nbsp;
   
 </div>
 
